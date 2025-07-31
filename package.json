@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "author": "xudandan <xudandan@lattebank.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@babel/core": "^7.28.0",
+    "eslint": "^9.32.0",
+    "prettier": "^3.6.2",
+    "react": "18",
+    "react-dom": "18",
+    "stylelint": "^16.23.0",
+    "three": "^0.178.0",
+    "umi": "^4.4.11",
+    "webpack": "^5.101.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "@types/three": "^0.178.1",
+    "typescript": "^5.0.3"
+  }
+}
